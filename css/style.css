@@ -1,0 +1,167 @@
+* {
+    background: #F5F5F5;
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    position: fixed;   
+    top:0;
+    right:0;
+    width:100%;
+    background:#fe7f18 url(../img/header.png) 50% no-repeat;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    z-index: 1000;
+}
+.container {
+    padding-top:60px;
+    width: 1200px;
+    margin: auto;   
+}
+.product{
+    background: url(../img/Product.png) no-repeat;
+    height: 540px;
+    margin-bottom: 35px;
+}
+
+
+.content-box {
+    height: 100%;
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    position: relative;
+}
+.content-box .tab {
+    background: url(../img/Tabs.png) no-repeat;
+    height: 43px;
+}
+.content-box .overview {
+    background: url(../img/DNS_complex.png) no-repeat;
+    height: 3451px;
+    
+}
+.content-box .overviewSimple {
+    background: url(../img/DNS_simple.png) no-repeat;
+    height: 3423px;  
+}
+.content-box .overviewYandex {
+    background: url(../img/yandex.png) no-repeat;
+    height: 2091px;  
+}
+.content-box .atl-content {
+    background: white;
+    height: 600px;  
+}
+.atl-content a {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 40px;
+    font-family: arial;
+    margin-left: 40px;
+}
+.content-box .review-spoiler {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    top: 490px;
+    right:490px;
+    z-index: 999;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+.content-box .review {
+    background: url(../img/not_autorized/review.png) no-repeat;
+    height: 1565px;
+    display: none;
+    position: relative;
+}
+/*url(../img/not_autorized/positive-review.png) no-repeat;*/
+.content-box .positive-review {
+    background: url(../img/not_autorized/positive-review.png) no-repeat;
+    height: 323px;
+    position: relative;
+}
+.positive-review-read-more {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    bottom: 30px;
+    right:230px;
+    z-index: 999;
+    border-radius: 5px;
+    background: red;
+    display: none;
+
+
+}
+.content-box .negative-review {
+    background: url(../img/not_autorized/negative-review.png) no-repeat;
+    height: 323px;
+}
+.negative-review-read-more {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    top: 1250px;
+    right:230px;
+    z-index: 999;
+    border-radius: 5px;
+    background: none;
+
+}
+.negative-review-read-more:focus + .negative-review {
+    background: url(../img/not_autorized/negative-review-ext.png) no-repeat;
+    height: 654px;
+    margin:40px 0;
+}
+.content-box .other-review {
+    background: url(../img/not_autorized/dns-review.png) no-repeat;
+    height: 2813px;
+    position: relative;
+}
+.content-box .review-spoiler2 {
+    display: inline-block;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    bottom: 50px;
+    right:412px;
+    z-index: 999;
+    border-radius: 5px;
+    background: none;
+}
+
+/*img\not_autorized\overview.png*/
+.btn {
+    position: absolute;
+    width: 70px;
+    height: 35px;
+    background: none;
+    top:155px;
+    cursor: pointer;
+}
+
+.btn.dns-shop {
+    left:230px;
+    width: 120px;
+}
+
+.btn.yandex {
+    left:350px;
+}
+
+.autorize {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    background: none;
+    top: 640px;
+    right: 470px;
+}

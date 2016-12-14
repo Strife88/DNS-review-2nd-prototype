@@ -1,0 +1,21 @@
+.content-box .overview {
+    background: url(../img/autorized/overview.png) no-repeat;
+    height: 540px;
+    margin-bottom: 20px;
+}
+.content-box .review {
+    background: url(../img/autorized/review.png) no-repeat;
+    height: 1565px;
+}
+.content-box .review-spoiler {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    top: 490px;
+    right:490px;
+    z-index: 999;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}

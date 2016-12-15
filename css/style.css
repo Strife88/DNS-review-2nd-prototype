@@ -55,6 +55,14 @@
     background: url(../img/DnsTabed.png) no-repeat;
     height: 2091px;  
 }
+.content-box .Final_ {
+    background: url(../img/Final_.png) no-repeat;
+    height: 3514px;  
+}
+.content-box .Final_img {
+    background: url(../img/Final_Photo_comment.png) no-repeat;
+    height: 4921px;  
+}
 .content-box .atl-content {
     background: white;
     height: 600px;  
